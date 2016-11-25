@@ -87,6 +87,24 @@ a:hover.navbar-brand.navbar-s {
     width: 100%;
     background:url("../img/header.jpg") no-repeat center center scroll;
 }
+.footer-sign{
+    text-align:center; background-color: rgba(0,0,0,0.4);padding: 10px;
+    height: 76.1px;
+}
+.footer-signature{
+    display: none;
+}
+.footer-cover p{
+    color: white; font-size: 20px;
+    font-family:"Calibri Light","Calibri",Arial,sans-serif;
+    line-height: 100%;
+}
+.footer-sign:hover .footer-signature{
+    display: block;
+}
+.footer-sign:hover .footer-cover{
+    display: none;
+}
 .featurette {
     padding: 80px 0;
     overflow: hidden;
@@ -132,9 +150,6 @@ a:hover.navbar-brand.navbar-s {
 .text-muted{
     font-size: 30px;
     line-height: 200%;
-}
-footer {
-    margin: 50px 0;
 }
 
 @media(max-width:1200px) {
